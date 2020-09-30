@@ -1,10 +1,11 @@
 class Student
   attr_accessor :name, :grade
-  attr_reader :id
+  attr_writer :id
   
-  def intialize(name, grade)
+  def intialize(name, grade, id)
     @name = name
     @grade = grade
+    @id = id
   end
 
   # Remember, you can access your database connection anywhere in this class
