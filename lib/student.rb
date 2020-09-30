@@ -38,7 +38,7 @@ class Student
   end
   
   def self.create(name, grade)
-    student = 
+    student = Student.new
 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
