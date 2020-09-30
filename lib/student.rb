@@ -1,7 +1,7 @@
 class Student
   attr_reader :id
   
-  def intialize(id)
+  def initialize(id)
     @id = id
   end
   
